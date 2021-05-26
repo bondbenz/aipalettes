@@ -1,0 +1,56 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro|Dorsa' rel='stylesheet' type='text/css'>  
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/icon.png" type="image/gif"> 
+    <title>AI Palettes</title>
+</head>
+  
+<body>
+    <h1>  
+        <span id="drop">
+        <svg viewBox="0 0 24 32">
+          <path fill="#555555" d="M23.998,19.797c0-0.021-0.001-0.044-0.001-0.065c-0.001-0.045-0.002-0.089-0.003-0.134 C23.68,9.733,12,0,12,0S0.32,9.733,0.007,19.597c-0.001,0.045-0.003,0.089-0.004,0.134c0,0.022-0.001,0.044-0.001,0.066 C0,19.865,0,19.932,0,20c0,0.074,0.001,0.148,0.002,0.222c0,0.006,0,0.012,0,0.019C0.13,26.757,5.453,32,12,32 s11.87-5.243,11.998-11.76c0-0.007,0-0.013,0-0.019C23.999,20.147,24,20.074,24,20C24,19.932,23.999,19.865,23.998,19.797z
+           M19.999,20.148l0,0.013c-0.041,2.103-0.892,4.073-2.395,5.548C16.099,27.186,14.109,28,12,28c-0.39,0-0.775-0.027-1.154-0.082
+          c4.345-2.589,7.257-7.335,7.257-12.76c0-0.608-0.037-1.208-0.108-1.797c1.258,2.311,1.939,4.463,2,6.363v0.005
+          c0.001,0.029,0.001,0.059,0.002,0.089l0.001,0.045C20,19.909,20,19.955,20,20C20,20.05,20,20.098,19.999,20.148z"/>
+          </svg>
+        </span>
+     Ai Palettes</h1>
+      <div class="color-picker-position center">
+        <span class="color-picker center">
+          <label for="colorPicker">
+            <input type="color" value="#1DB8CE" name="colorhex" id="colorPicker">
+          </label>
+        </span>
+      </div>
+      <p>
+        <input type="button" class="btn center" id="getcolors" value="Submit">
+      </p>
+      <span class="center loading spinner" id="loading"></span>
+      <p>A color palettes generator based on user input using Artificial Intelligence (AI).</p>
+      <ul id="colors" class="center" style="display: none;">
+      </ul>
+      <p><hr></p>
+      <h5 class="center"><img src="/static/donate.png" alt="donate" width="100px" style="vertical-align: middle; margin-right: 1%;">Consider to donate so we can keep our website online for you ! </h5>
+        <table class="center" style="text-align: center; margin-top: 1%; margin-bottom: 1%;">
+          <tr>
+            <td><img src="/static/paypal.png" width="100px;" alt="paypal"/></td>
+            <td>n.benzeghli@esi-sba.dz</td>
+          </tr>
+          <tr>
+            <td><img src="/static/paysera.png" width="100px" alt="paysera" srcset=""></td>
+            <td>bombbimbo@gmail.com</td>
+          </tr>
+          <tr>
+            <td><img src="/static/btc.png" width="100px" alt="bitcoin" srcset=""></td>
+          <td>3Ppghs5zegbyZXnwx2PNEBD44Y6AoRjjPa</td>
+          </tr>
+      </table>
+        
+        
+      <footer id="footer">Made with ♥️ in Algeria &copy; 2021 - by <a href="http://bondbenz.xyz">Nor El Islam Benzeghli</a></footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+<script src="/static/js.js"></script>
+</body>
