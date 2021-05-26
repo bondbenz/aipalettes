@@ -12,5 +12,8 @@ All data is from color-hex.com
 ## :test_tube: Algorithm
 I've used a tweaked KNN to fit the output of a multiple classes and not a single class.
 
+## :moneybag: Donation
+Consider donating to support me for more projects and keep Ai Palettes alive! (Visit the website for more details)
+
 
 ## :copyright: 2021 Made with :heart: in Algeria :algeria:
